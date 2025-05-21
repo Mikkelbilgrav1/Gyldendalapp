@@ -1,29 +1,23 @@
-export default function ModuleOverview({ onSelectModule }) {
+// components/ModuleOverview.jsx
+export default function ModuleOverview({ modules, onSelectModule }) {
   return (
     <div className="screen modules">
       <h1>Moduler</h1>
       <div className="module-list">
-        <div className="module-item module-1">
-          <div>
-            <strong>Modul 1</strong>
-            <p>Hvad er en idé?</p>
+        {modules.map((module) => (
+          <div key={module.id} className={`module-item ${module.color}`}>
+            <div>
+              <strong>{module.title}</strong>
+              <p>{module.subtitle}</p>
+            </div>
+            <button 
+              onClick={() => module.enabled && onSelectModule(module.id)} 
+              disabled={!module.enabled}
+            >
+              Gå til modul
+            </button>
           </div>
-          <button onClick={onSelectModule}>Gå til modul</button>
-        </div>
-        <div className="module-item module-2">
-          <div>
-            <strong>Modul 2</strong>
-            <p>Skygger og virkelighed</p>
-          </div>
-          <button disabled>Gå til modul</button>
-        </div>
-        <div className="module-item module-3">
-          <div>
-            <strong>Modul 3</strong>
-            <p>Tænk som en filosof</p>
-          </div>
-          <button disabled>Gå til modul</button>
-        </div>
+        ))}
       </div>
     </div>
   );
