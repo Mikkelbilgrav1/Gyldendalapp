@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
 body {
   margin: 0;
   font-family: 'Comic Sans MS', cursive;
@@ -11,12 +13,13 @@ body {
 
 .screen {
   min-height: 100vh;
-  padding: 2rem 1rem;
+  padding: 2rem 0rem 0rem 0rem;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  justify-content: space-between;
 }
 
 .intro {
@@ -24,9 +27,29 @@ body {
   color: white;
 }
 
+.intro h1 {
+  font-family: DynaPuff;
+  font-size: 10vw;
+}
+
+.intro p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
 .peggy {
   background-color: #443EFF;
   color: white;
+}
+
+.peggy h1 {
+  font-family: DynaPuff;
+  font-size: 10vw;
+}
+
+.peggy p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }
 
 .modules {
@@ -40,7 +63,7 @@ body {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 10vw;
   font-weight: bold;
   margin-bottom: 1rem;
 }
@@ -72,17 +95,16 @@ img.peggy-img {
 .module-list {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  width: 100%;
+  width: 100vw;
 }
 
 .module-item {
-  padding: 1rem;
-  border-radius: 12px;
+  padding: 1rem 3rem;
   color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 23vh;
 }
 
 .module-1 { background-color: #7CF96B; }
