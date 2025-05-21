@@ -50,7 +50,7 @@ export const modulesData = [
     title: 'Modul 2',
     subtitle: 'Skygger og virkelighed',
     color: 'module-2',
-    enabled: false,
+    enabled: true,
     lesson: {
       content: [
         'Platon fortæller en berømt historie, som kaldes "Hulelignelsen".',
@@ -95,7 +95,7 @@ export const modulesData = [
     title: 'Modul 3',
     subtitle: 'Tænk som en filosof',
     color: 'module-3',
-    enabled: false,
+    enabled: true,
     lesson: {
       content: [
         'At tænke som en filosof betyder at stille spørgsmål ved alt.',
