@@ -36,7 +36,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 2.5vh;
-  margin-top: 10vh;
+  margin-top: 7vh;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -75,6 +75,10 @@ body {
   background-color: #4AD9E1;
   color: white;
   justify-content: space-between;
+}
+
+.modul-text {
+margin-bottom: 6vh;
 }
 
 .module-screen {
@@ -117,9 +121,9 @@ button.knap img {
 }
 
 img.peggy-img {
-  width: 128px;
-  height: 128px;
-  margin-top: 10vh;
+  width: 40%;
+  height: auto;
+  margin-top: 2vh;
 }
 
 .module-list {
@@ -134,12 +138,14 @@ img.peggy-img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 20vh;
+  height: 15vh;
+  text-align: left;
 }
 
 .module-1 { background-color: #7CF96B; }
 .module-2 { background-color: #DAC84F; }
-.module-3 { background-color: #96458B; }
+.module-3 { background-color: #96458B; 
+            padding-bottom: 20%;}
 
 .module-item button {
   background: white;

@@ -3,6 +3,9 @@ export default function ModuleOverview({ modules, onSelectModule }) {
   return (
     <div className="screen modules">
       <h1>Moduler</h1>
+      <p className="modul-text">
+        Vælg en af disse moduler og lær hvad skyggeverdenen er!
+      </p>
       <div className="module-list">
         {modules.map((module) => (
           <div key={module.id} className={`module-item ${module.color}`}>
