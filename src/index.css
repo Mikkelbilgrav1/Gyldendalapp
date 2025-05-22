@@ -91,6 +91,8 @@ h1 {
   font-weight: bold;
   margin-top: 12vh;
   font-family: DynaPuff;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 button.knap {
@@ -142,10 +144,18 @@ img.peggy-img {
   text-align: left;
 }
 
-.module-1 { background-color: #7CF96B; }
-.module-2 { background-color: #DAC84F; }
-.module-3 { background-color: #96458B; 
-            padding-bottom: 20%;}
+.module-1 { 
+  background-color: #7CF96B; 
+}
+
+.module-2 { 
+  background-color: #DAC84F; 
+}
+
+.module-3 { 
+background-color: #96458B; 
+padding-bottom: 20%;}
+
 
 .module-item button {
   background: white;
@@ -153,15 +163,26 @@ img.peggy-img {
   padding: 0.5rem 1rem;
   border-radius: 8px;
   cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 .lesson, .quiz, .result {
-  background-color: #fdfdfd;
   color: black;
   padding: 1rem;
   border-radius: 12px;
   width: 100%;
   max-width: 360px;
+}
+
+.lesson button {
+  margin: 3rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #fff;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .lesson p, .quiz p, .result p {
@@ -179,4 +200,18 @@ img.peggy-img {
 
 .quiz button:hover {
   background-color: #eee;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.result button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #fff;
+  cursor: pointer;
 }

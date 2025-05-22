@@ -9,7 +9,7 @@ export default function ModuleScreen({ moduleData, onBack }) {
   const [score, setScore] = useState(0);
 
   return (
-    <div className="screen module-screen">
+    <div className={`screen ${moduleData.color}`}>
       <h1>{moduleData.title} – {moduleData.subtitle}</h1>
       
       {step === 'lesson' && (
