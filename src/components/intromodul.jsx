@@ -1,7 +1,7 @@
-// components/Lesson.jsx
-export default function Lesson({ content, onNext }) {
+// components/intromodul.jsx
+export default function intromodul({ content, onNext }) {
   return (
-    <div className="lesson">
+    <div className="intromodul">
       {content.map((paragraph, index) => (
         <p key={index}>{paragraph}</p>
       ))}

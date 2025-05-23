@@ -57,8 +57,8 @@ export default function App() {
             top: '10px',
             left: '10px',
             zIndex: 1000,
-            background: 'rgba(0,0,0,0.5)',
-            color: 'white',
+            background: 'rgb(255, 255, 255)',
+            color: 'black',
             border: 'none',
             borderRadius: '50%',
             width: '40px',
@@ -67,7 +67,8 @@ export default function App() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            fontSize: '18px'
+            fontSize: '20px',
+            fontFamily: 'DynaPuff',
           }}
         >
           ←
