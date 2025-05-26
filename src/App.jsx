@@ -12,7 +12,7 @@ export default function App() {
   const [screenHistory, setScreenHistory] = useState(['intro']); // Track navigation history
 
   const navigateToScreen = (newScreen, moduleId = null) => {
-    // Add current screen to history before navigating
+    //Tilføj nuværende skærm til historie før navigation
     setScreenHistory(prev => [...prev, newScreen]);
     setScreen(newScreen);
     if (moduleId) {
@@ -22,15 +22,15 @@ export default function App() {
 
   const goBack = () => {
     if (screenHistory.length > 1) {
-      // Remove current screen and go to previous
+      //Fjern nuværende skærm og gå til forrige skærm
       const newHistory = [...screenHistory];
-      newHistory.pop(); // Remove current screen
+      newHistory.pop(); //Fjern nuværende skærm
       const previousScreen = newHistory[newHistory.length - 1];
       
       setScreenHistory(newHistory);
       setScreen(previousScreen);
       
-      // If going back from module screen, clear currentModuleId
+      //Hvis gå tilbage fra Module skærm, så clear CurrentModuleId
       if (screen === 'module') {
         setCurrentModuleId(null);
       }
@@ -42,12 +42,12 @@ export default function App() {
     navigateToScreen('module');
   };
 
-  // Show back button for all screens except the intro screen
+  //Hvis tilbage knap på alle skærme undtaget intro skærmen
   const showBackButton = screenHistory.length > 1;
 
   return (
     <div className="app-container">
-      {/* Back button - positioned absolutely to appear on all screens */}
+      {/* Tilbage knappen - positionen, styleing til alle skærme */}
       {showBackButton && (
         <button 
           onClick={goBack} 

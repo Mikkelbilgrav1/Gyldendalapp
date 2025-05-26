@@ -13,7 +13,7 @@ export default function Quiz({ questions, onFinish }) {
       setScore(score + 1);
     }
 
-    // Move to next question or finish quiz
+    //Gå til næste spørgsmål eller færdiggør Quiz
     if (currentQuestion < questions.length - 1) {
       setCurrentQuestion(currentQuestion + 1);
     } else {
