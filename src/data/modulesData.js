@@ -7,7 +7,7 @@ export const modulesData = [
     color: 'module-1',
     enabled: true,
     intromodul: {
-      title: "Velkommen! M1",
+      title: "Velkommen til module 1!",
       content: [
         "Lad os starte med noget simpelt. Hvad er en stol? Er det noget med fire ben? Et ryglæn?",
         "Eller er det noget, vi alle bare forstår, når vi ser det?"
@@ -83,7 +83,7 @@ export const modulesData = [
     color: 'module-2',
     enabled: true,
     intromodul: {
-      title: "Velkommen! M2",
+      title: "Velkommen til module 2!",
       content: [
         'Nu skal vi dykke dybere ned i Platons idéer.',
         'Han mente, at vi lever som mennesker i en hule, hvor vi kun ser skygger af det, der er virkeligt.'
@@ -159,7 +159,7 @@ export const modulesData = [
     color: 'module-3',
     enabled: true,
     intromodul: {
-      title: "Velkommen! M3",
+      title: "Velkommen til module 3!",
       content: [
         'Nu skal du prøve at tænke som en rigtig filosof.',
         'Hvad er virkeligt? Hvad er bare en kopi?',

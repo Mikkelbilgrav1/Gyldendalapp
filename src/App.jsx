@@ -54,8 +54,8 @@ export default function App() {
           className="back-button"
           style={{
             position: 'fixed',
-            top: '10px',
-            left: '10px',
+            top: '3%',
+            left: '5%',
             zIndex: 1000,
             background: 'rgb(255, 255, 255)',
             color: 'black',
