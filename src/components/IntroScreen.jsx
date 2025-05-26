@@ -1,3 +1,5 @@
+
+
 export default function IntroScreen({ onNext }) {
   return (
     <div className="screen intro">
@@ -8,7 +10,7 @@ export default function IntroScreen({ onNext }) {
       Tyk på knappen for at fortsætte
       </p>
       <button onClick={onNext} className="knap">
-        <img src="src\assets\knap.png" alt="knap-næste" />
+        <img src='/knap.png' alt="knap-næste" />
       </button>
       <div className="black-bottom-shape"></div>
     </div>

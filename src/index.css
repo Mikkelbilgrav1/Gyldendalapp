@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 body {
   margin: 0;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Neue';
   background-color: #ffffff;
 }
 
@@ -29,11 +30,11 @@ body {
 .intro h1 {
   font-family: DynaPuff;
   font-size: 10vw;
-  margin-top: 13vh;
+  margin-top: 10vh;
 }
 
 .intro p {
-  font-family: 'Comic Sans MS';
+  font-family: 'Comic Neue';
   font-weight: 600;
   font-size: 2vh;
   margin-top: 7vh;
@@ -58,11 +59,11 @@ body {
 .peggy h1 {
   font-family: DynaPuff;
   font-size: 10vw;
-  margin-top: 13vh;
+  margin-top: 10vh;
 }
 
 .peggy p {
-  font-family: 'Comic Sans MS';
+  font-family: 'Comic Neue';
   font-weight: 600;
   font-size: 2vh;
   margin-top: 5vh;
@@ -78,6 +79,9 @@ body {
 
 .modul-text {
 margin-bottom: 6vh;
+margin-left: 5%;
+margin-right: 5%;
+font-weight: 600;
 }
 
 .module-screen {
@@ -88,7 +92,7 @@ margin-bottom: 6vh;
 h1 {
   font-size: 10vw;
   font-weight: bold;
-  margin-top: 12vh;
+  margin-top: 10vh;
   font-family: DynaPuff;
   margin-left: 5%;
   margin-right: 5%;
@@ -102,7 +106,7 @@ button.knap {
   display: inline-block;
   position: absolute;
   z-index: 1;
-  bottom: 7%;
+  bottom: 1%;
 
 }
 
@@ -162,8 +166,9 @@ padding-bottom: 20%;}
   padding: 0.5rem 1rem;
   border-radius: 8px;
   cursor: pointer;
-  font-family: 'Comic Sans MS';
+  font-family: 'Comic Neue';
   font-weight: 800;
+  color: black;
 }
 
 .lesson, .quiz, .result, .intromodul {
@@ -185,7 +190,7 @@ padding-bottom: 20%;}
   border: 1px solid #333;
   background: #fff;
   cursor: pointer;
-  font-family: 'Comic Sans MS';
+  font-family: 'Comic Neue';
 }*/
 
 .lesson p, .quiz p, .result p {
@@ -199,6 +204,7 @@ padding-bottom: 20%;}
   border: 1px solid #333;
   background: #fff;
   cursor: pointer;
+  color: black;
 }
 
 .quiz button:hover {
@@ -217,4 +223,5 @@ padding-bottom: 20%;}
   border: 1px solid #333;
   background: #fff;
   cursor: pointer;
+  color: black;
 }

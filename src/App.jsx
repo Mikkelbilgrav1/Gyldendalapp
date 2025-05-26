@@ -75,6 +75,7 @@ export default function App() {
         </button>
       )}
 
+
       {screen === 'intro' && <IntroScreen onNext={() => navigateToScreen('peggy')} />}
       {screen === 'peggy' && <PeggyIntro onNext={() => navigateToScreen('modules')} />}
       {screen === 'modules' && <ModuleOverview 

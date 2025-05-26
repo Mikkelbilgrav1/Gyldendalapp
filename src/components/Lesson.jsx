@@ -1,3 +1,5 @@
+
+
 // components/Lesson.jsx
 export default function Lesson({ content, onNext }) {
   return (
@@ -6,7 +8,7 @@ export default function Lesson({ content, onNext }) {
         <p key={index}>{paragraph}</p>
       ))}
       <button onClick={onNext} className="knap">
-        <img src="src\assets\knap.png" alt="knap-næste" />
+        <img src='/knap.png' alt="knap-næste" />
       </button>
       <div className="black-bottom-shape"></div>
     </div>

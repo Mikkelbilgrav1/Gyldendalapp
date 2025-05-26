@@ -11,7 +11,7 @@ export default function PeggyIntro({ onNext }) {
         Klar til at gå på opdagelse i en verden fuld af skjulte idéer?
       </p>
       <button onClick={onNext} className="knap">
-        <img src="src\assets\knap.png" alt="knap-næste" />
+        <img src='/knap.png' alt="knap-næste" />
       </button>
       <div className="black-bottom-shape"></div>
     </div>
