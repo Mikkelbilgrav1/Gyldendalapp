@@ -29,15 +29,15 @@ body {
 
 .intro h1 {
   font-family: DynaPuff;
-  font-size: 10vw;
-  margin-top: 10vh;
+  font-size: 8vw;
+  margin-top: 8vh;
 }
 
 .intro p {
   font-family: 'Comic Neue';
   font-weight: 600;
   font-size: 2vh;
-  margin-top: 7vh;
+  margin-top: 3vh;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -58,8 +58,8 @@ body {
 
 .peggy h1 {
   font-family: DynaPuff;
-  font-size: 10vw;
-  margin-top: 10vh;
+  font-size: 8vw;
+  margin-top: 8vh;
 }
 
 .peggy p {
@@ -90,12 +90,12 @@ font-weight: 600;
 }
 
 h1 {
-  font-size: 10vw;
+  font-size: 8vw;
   font-weight: bold;
-  margin-top: 10vh;
+  margin-top: 8vh;
   font-family: DynaPuff;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 button.knap {
@@ -128,7 +128,7 @@ button.knap img {
 img.peggy-img {
   width: 40%;
   height: auto;
-  margin-top: 2vh;
+  /* margin-top: 2vh; */
 }
 
 .module-list {
@@ -194,7 +194,7 @@ padding-bottom: 20%;}
 }*/
 
 .lesson p, .quiz p, .result p {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5vh;
 }
 
 .quiz button {

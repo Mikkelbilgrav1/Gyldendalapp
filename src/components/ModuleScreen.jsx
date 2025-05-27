@@ -18,8 +18,13 @@ export default function ModuleScreen({ moduleData, onBack }) {
         {step === 'result' && 'Dit resultat'}
       </h1>
       
-      {step !== 'lesson' && (
-      <img src="/peggy.png" alt="peggy" className="peggy-img" />
+      {/* Vis Peggy-billede kun ved quiz og result */}
+      {step === 'quiz' && (
+        <img src="/peggy-undervisning.webp" alt="peggy" className="peggy-img" />
+      )}
+      
+      {step === 'result' && (
+        <img src="/peggy-resultat.webp" alt="peggy resultat" className="peggy-img" />
       )}
       
       {step === 'intromodul' && (
